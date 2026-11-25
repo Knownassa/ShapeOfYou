@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+<title id="title">Shape of You — planned landing page</title>
+<desc id="desc">A neutral dark gaming-inspired stage with a centered title, tagline, start button and five overlapping colorful geometry cards.</desc>
+<defs>
+  <clipPath id="stage"><rect x="28" y="28" width="1224" height="704" rx="28"/></clipPath>
+  <linearGradient id="purple" x2=".25" y2="1"><stop stop-color="#9867EA"/><stop offset="1" stop-color="#6942CF"/></linearGradient>
+  <linearGradient id="coral" x2=".25" y2="1"><stop stop-color="#FF7885"/><stop offset="1" stop-color="#E94E61"/></linearGradient>
+  <linearGradient id="cyan" x2=".25" y2="1"><stop stop-color="#32CDE7"/><stop offset="1" stop-color="#139CBF"/></linearGradient>
+  <linearGradient id="mint" x2=".25" y2="1"><stop stop-color="#43D9AE"/><stop offset="1" stop-color="#16A98F"/></linearGradient>
+  <linearGradient id="indigo" x2=".25" y2="1"><stop stop-color="#6D7FEC"/><stop offset="1" stop-color="#4858CC"/></linearGradient>
+</defs>
+<rect width="1280" height="760" fill="#34353B"/>
+<g clip-path="url(#stage)" font-family="Arial,Helvetica,sans-serif">
+  <rect x="28" y="28" width="1224" height="704" fill="#101115"/>
+  <g stroke="#FFFFFF" stroke-opacity=".045" fill="none" stroke-width="1">
+    <path d="M136 100 L-560 760"/><path d="M199 100 L-410 760"/><path d="M262 100 L-260 760"/><path d="M325 100 L-110 760"/><path d="M388 100 L40 760"/><path d="M451 100 L190 760"/><path d="M514 100 L340 760"/><path d="M577 100 L490 760"/><path d="M640 100 L640 760"/><path d="M703 100 L790 760"/><path d="M766 100 L940 760"/><path d="M829 100 L1090 760"/><path d="M892 100 L1240 760"/><path d="M955 100 L1390 760"/><path d="M1018 100 L1540 760"/><path d="M1081 100 L1690 760"/><path d="M1144 100 L1840 760"/>
+    <path d="M28 150 H1252"/><path d="M28 188 H1252"/><path d="M28 234 H1252"/><path d="M28 291 H1252"/><path d="M28 362 H1252"/><path d="M28 454 H1252"/><path d="M28 570 H1252"/><path d="M28 718 H1252"/>
+  </g>
+  <g fill="#F5F5F7">
+    <path d="M82 69l13 7v15l-13 7-13-7V76Z" fill="none" stroke="#F5F5F7" stroke-width="2.3"/>
+    <text x="111" y="90" font-size="20" font-weight="700">Shape of You</text>
+    <text x="1196" y="89" text-anchor="end" fill="#A6A8B5" font-size="16">WDD Project</text>
+    <text x="640" y="223" text-anchor="middle" font-size="80" font-weight="700" letter-spacing="-3">Shape of You</text>
+    <text x="640" y="277" text-anchor="middle" font-size="28" font-weight="600">Think. Count. Choose. Laugh.</text>
+    <text x="640" y="319" text-anchor="middle" font-size="18" fill="#A6A8B5">A quick geometry quiz with a different shape every round.</text>
+    <rect x="514" y="350" width="252" height="60" rx="12" fill="#F5F5F7"/>
+    <text x="640" y="387" text-anchor="middle" font-size="20" font-weight="700" fill="#101115">Start the Quiz</text>
+  </g>
+  <g transform="translate(108 549) rotate(-12 112.5 130)">
+    <rect x="0" y="8" width="225" height="360" rx="24" fill="#000000" opacity=".24"/>
+    <rect width="225" height="360" rx="24" fill="url(#purple)" stroke="#FFFFFF" stroke-opacity=".15"/>
+    <text x="24" y="44" fill="#FFFFFF" font-size="25" font-weight="700">Triangle</text>
+    <polygon points="112.5,79.0 182.6,200.5 42.4,200.5" fill="#D8C1FF" stroke="#FFFFFF" stroke-opacity=".4" stroke-width="2" stroke-linejoin="round"/>
+  </g><g transform="translate(300 495) rotate(-6 124 130)">
+    <rect x="0" y="8" width="248" height="385" rx="24" fill="#000000" opacity=".24"/>
+    <rect width="248" height="385" rx="24" fill="url(#coral)" stroke="#FFFFFF" stroke-opacity=".15"/>
+    <text x="24" y="44" fill="#FFFFFF" font-size="25" font-weight="700">Hexagon</text>
+    <polygon points="124.0,70.7 201.3,115.4 201.3,204.6 124.0,249.3 46.7,204.6 46.7,115.4" fill="#FFD0D6" stroke="#FFFFFF" stroke-opacity=".4" stroke-width="2" stroke-linejoin="round"/>
+  </g><g transform="translate(732 495) rotate(6 124 130)">
+    <rect x="0" y="8" width="248" height="385" rx="24" fill="#000000" opacity=".24"/>
+    <rect width="248" height="385" rx="24" fill="url(#mint)" stroke="#FFFFFF" stroke-opacity=".15"/>
+    <text x="24" y="44" fill="#FFFFFF" font-size="25" font-weight="700">Pentagon</text>
+    <polygon points="124.0,70.7 208.9,132.4 176.5,232.2 71.5,232.2 39.1,132.4" fill="#BAF3DC" stroke="#FFFFFF" stroke-opacity=".4" stroke-width="2" stroke-linejoin="round"/>
+  </g><g transform="translate(949 549) rotate(12 112.5 130)">
+    <rect x="0" y="8" width="225" height="360" rx="24" fill="#000000" opacity=".24"/>
+    <rect width="225" height="360" rx="24" fill="url(#indigo)" stroke="#FFFFFF" stroke-opacity=".15"/>
+    <text x="24" y="44" fill="#FFFFFF" font-size="25" font-weight="700">Square</text>
+    <polygon points="169.8,102.7 169.8,217.3 55.2,217.3 55.2,102.7" fill="#CFD7FF" stroke="#FFFFFF" stroke-opacity=".4" stroke-width="2" stroke-linejoin="round"/>
+  </g><g transform="translate(494 454) rotate(0 146 130)">
+    <rect x="0" y="8" width="292" height="410" rx="24" fill="#000000" opacity=".24"/>
+    <rect width="292" height="410" rx="24" fill="url(#cyan)" stroke="#FFFFFF" stroke-opacity=".15"/>
+    <text x="24" y="44" fill="#FFFFFF" font-size="25" font-weight="700">Star</text>
+    <polygon points="146.0,60.0 171.9,124.4 241.1,129.1 187.8,173.6 204.8,240.9 146.0,204.0 87.2,240.9 104.2,173.6 50.9,129.1 120.1,124.4" fill="#FFF0AD" stroke="#FFFFFF" stroke-opacity=".4" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+</g>
+</svg>
