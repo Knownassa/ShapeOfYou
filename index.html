@@ -7,7 +7,7 @@
 
   <!-- Page title and description -->
   <title>Shape of You</title>
-  <meta name="description" content="Shape of You is an interactive quiz that helps you discover your body shape.">
+  <meta name="description" content="Shape of You is a fun geometry quiz that challenges how you see shapes.">
 
   <!-- Stylesheets: layout rules first, then visual styling -->
   <link rel="stylesheet" href="css/layout.css">
@@ -17,13 +17,26 @@
   <script src="js/script.js" defer></script>
 </head>
 <body>
-  <!-- Site header -->
-  <header></header>
+  <!-- Site header with wordmark and project label -->
+  <header class="site-header">
+    <p class="wordmark">Shape of You</p>
+    <p class="project-label">WDD Project</p>
+  </header>
 
   <!-- Main screens -->
   <main>
     <!-- Home screen is visible by default -->
-    <section id="home-screen" class="screen"></section>
+    <section id="home-screen" class="screen">
+      <div class="landing-content">
+        <h1>Shape of You</h1>
+        <p class="tagline">Think. Count. Choose. Laugh.</p>
+        <p class="description">
+          A fun geometry quiz that challenges how you see shapes.
+          Test your understanding of geometric shapes in a quick, playful challenge.
+        </p>
+        <button id="start-btn" class="primary-btn" type="button">Start the Quiz</button>
+      </div>
+    </section>
 
     <!-- Quiz screen is shown when the quiz starts -->
     <section id="quiz-screen" class="screen" hidden></section>
