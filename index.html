@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding and responsive scaling -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Page title and description -->
+  <title>Shape of You</title>
+  <meta name="description" content="Shape of You is an interactive quiz that helps you discover your body shape.">
+
+  <!-- Stylesheets: layout rules first, then visual styling -->
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Load the script after the page is parsed -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <!-- Site header -->
+  <header></header>
+
+  <!-- Main screens -->
+  <main>
+    <!-- Home screen is visible by default -->
+    <section id="home-screen" class="screen"></section>
+
+    <!-- Quiz screen is shown when the quiz starts -->
+    <section id="quiz-screen" class="screen" hidden></section>
+
+    <!-- Result screen is shown when the quiz ends -->
+    <section id="result-screen" class="screen" hidden></section>
+  </main>
+</body>
+</html>
