@@ -1,0 +1,135 @@
+/*
+  Shape of You - visual foundation
+  Owner: Wasiul Islam Sohan (243209)
+
+  This file controls the theme, typography and button styling.
+  Page structure and layout are handled in layout.css.
+*/
+
+/* Fonts: Michroma for display text and Sora for body text. */
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Sora:wght@400;600;700&display=swap");
+
+/* Reusable colour palette and font stacks. */
+:root {
+  --background: #101115;
+  --surface: #1B1D25;
+  --surface-raised: #282B35;
+  --text: #F5F5F7;
+  --text-muted: #A6A8B5;
+  --cyan: #26C7F5;
+  --purple: #7C54F5;
+  --coral: #FF626C;
+  --mint: #26D6AA;
+  --orange: #FF9C48;
+
+  --font-display: "Michroma", "Trebuchet MS", Arial, sans-serif;
+  --font-body: "Sora", "Segoe UI", Arial, sans-serif;
+}
+
+/* Base page: premium dark background with soft colour glows. */
+body {
+  background-color: var(--background);
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(124, 84, 245, 0.18), transparent 40%),
+    radial-gradient(circle at 85% 10%, rgba(38, 199, 245, 0.12), transparent 35%);
+  /* Keep the soft glows spread across the viewport. */
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+/* Display typography for all headings. */
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+/* Site header: dark surface with a glowing cyan wordmark. */
+.site-header {
+  padding: 24px 32px;
+  background-color: var(--surface);
+  border-bottom: 1px solid rgba(38, 199, 245, 0.25);
+}
+
+.wordmark {
+  margin: 0 0 6px;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  text-shadow: 0 0 18px rgba(38, 199, 245, 0.35);
+}
+
+.project-label {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Landing content: display heading, tagline and description. */
+.landing-content {
+  padding: 48px 32px;
+}
+
+.landing-content h1 {
+  margin-bottom: 16px;
+  font-size: clamp(2.25rem, 6vw, 3.75rem);
+}
+
+.tagline {
+  margin: 0 0 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cyan);
+}
+
+.description {
+  margin: 0 0 32px;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--text-muted);
+}
+
+/* Primary button: cyan pill with a soft glow. */
+.primary-btn {
+  padding: 14px 28px;
+  border: 0;
+  border-radius: 999px;
+  background-color: var(--cyan);
+  color: var(--background);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow:
+    0 8px 20px rgba(38, 199, 245, 0.28),
+    inset 0 -2px 0 rgba(16, 17, 21, 0.15);
+}
+
+.primary-btn:hover {
+  background-color: #55D9FA;
+  box-shadow:
+    0 10px 26px rgba(38, 199, 245, 0.36),
+    inset 0 -2px 0 rgba(16, 17, 21, 0.15);
+}
+
+/* Keyboard focus: bright orange ring, visible on every surface. */
+:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 3px;
+}
